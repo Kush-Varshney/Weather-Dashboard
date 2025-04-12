@@ -1,5 +1,4 @@
-# Deployed Link
-https://weather-dashboard-nine-theta.vercel.app/
+
 
 # Getting Started with Create React App
 
