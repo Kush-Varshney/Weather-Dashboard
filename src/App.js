@@ -43,9 +43,8 @@ export default function WeatherDashboard() {
       setLoading(true);
       setError("");
 
-      // Direct API calls to OpenWeatherMap using your API key
-      // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-      const API_KEY = '10ed30d24b883eaa43a2cb9ff0cbab55'; // You should ideally store this in an environment variable
+      // Direct API calls to OpenWeatherMap using API key
+      const API_KEY = '10ed30d24b883eaa43a2cb9ff0cbab55'; 
 
       // Fetch current weather
       const weatherResponse = await fetch(
